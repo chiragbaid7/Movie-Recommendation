@@ -21,6 +21,7 @@ def recommend():
         else:
             return render_template('recommend.html',movie=movie,r=r,t='l')
     except Exception as e:
+        return "Movie not in database",200
         print(e)
 
 
