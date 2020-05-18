@@ -7,6 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 new_movies = pd.read_csv('new_movies.csv')
+new_movies.original_title = new_movies.original_title.str.lower()
 
 #Feature extraction
 tfidf=TfidfVectorizer(lowercase=True,stop_words='english',ngram_range=(1,2))
