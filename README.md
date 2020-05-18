@@ -1,2 +1,2 @@
 # movie-recommendation
-https://movie--recommend.herokuapp.com/
+https://movies--recommendation.herokuapp.com/
